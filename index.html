@@ -5,7 +5,19 @@
 
 <title>Técnicas de visualización de datos</title>
 
-<style>body{background-color:white;color:#000078;}</style>
+<style>
+body {
+    background-color:white;
+    color:#000078;
+    }
+.resize-pyramid {
+  width: 60%;
+  max-width: 3840px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  }
+</style>
 <script>(function() {
   // If window.HTMLWidgets is already defined, then use it; otherwise create a
   // new object. This allows preceding code to set options that affect the
@@ -1876,7 +1888,7 @@ display: none;
 <body>
 <h1>TÉCNICA GRUPO I (Básicas y populares): Pyramid Charts</h1>
 
-<img src="images/Pyramid_v02.svg" alt="Pyramid plot" width="1200">
+<img src="images/Pyramid_v02.svg" alt="Pyramid plot" class="resize-pyramid">
 
 <h1>TÉCNICA GRUPO II (Habituales y específicas): Parallel Coordinates Plot</h1>
     
@@ -1888,7 +1900,9 @@ display: none;
 
 <h1>TÉCNICA GRUPO III (Menos habituales o específicas): Beeswarm plot</h1>
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/28155152"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28155152/thumbnail" width="60%" alt="visualization" /></noscript></div>
+<div style="max-width: 3840px; width: 80%; margin: 0 auto;">
+<div class="flourish-embed flourish-chart" data-src="visualisation/28155152"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28155152/thumbnail" width="100%" alt="visualization" /></noscript></div>
+</div>
 
 </body>
 </html>
